@@ -63,13 +63,13 @@ header{
     margin: auto;
     padding-top: 50px;
     width: 70%;
-    height:auto;
+    height: 100%;
 }
 #main{
     margin-left: 0px;
     display: inline;
     float: left;
-    height: auto;
+    height: 100%;
     width: 70%;
 }
 #helloworld{
@@ -81,15 +81,14 @@ header{
     float: right;
     height: 300px;
     width: 20%;
-    margin-left: 50px;
 }
 #main #hello{
     border-radius: 5px;
     margin-top: 20px;
     background-color: gainsboro;
     height: auto;
-    width: 100%;
-    padding: 20px;
+    width: 90%;
+    padding: 15px;
 }
 #main #hello #text{
     padding-top: 20px;
@@ -101,6 +100,7 @@ header{
 }
 #submenu{
     margin-top: -17px;
+    margin-left: -40px;
 }
 #submenu ul{
     border: 1px solid RGB(223,223,223);
