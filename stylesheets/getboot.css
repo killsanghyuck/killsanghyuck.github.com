@@ -39,7 +39,6 @@ header{
 #nav ul #home a{
     color: white;
 }
-
 #nav a{
     display: block;
     height: 20px;
@@ -51,7 +50,6 @@ header{
 #pro{
     color: gray;
     text-decoration: none;
-    
 }
 #pro:hover{
     color: white;
@@ -62,7 +60,7 @@ header{
 #con{
     margin: auto;
     padding-top: 50px;
-    width: 70%;
+    width: 80%;
     height: 100%;
 }
 #main{
@@ -88,7 +86,7 @@ header{
     background-color: gainsboro;
     height: auto;
     width: 90%;
-    padding: 15px;
+    padding: 30px;
 }
 #main #hello #text{
     padding-top: 20px;
@@ -97,6 +95,7 @@ header{
 }
 #this{
     font-size: 20px;
+    font-weight: 200;
 }
 #submenu{
     margin-top: -17px;
@@ -126,7 +125,7 @@ header{
 #submenu #active{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    background-color: dodgerblue;
+    background-color: RGB(51,122,183);
     color: white;
 }
 .row{
