@@ -62,15 +62,15 @@ header{
 #con{
     margin: auto;
     padding-top: 50px;
-    width: 1000px;
-    height: 1300px;
+    width: 70%;
+    height:auto;
 }
 #main{
     margin-left: 0px;
     display: inline;
     float: left;
-    height: 1200px;
-    width: 78%;
+    height: auto;
+    width: 70%;
 }
 #helloworld{
     font-size: 60px;
@@ -80,16 +80,16 @@ header{
     margin-top: 20px;
     float: right;
     height: 300px;
-    width: 150px;
+    width: 20%;
     margin-left: 50px;
 }
 #main #hello{
     border-radius: 5px;
     margin-top: 20px;
-    padding: 15PX;
     background-color: gainsboro;
     height: auto;
     width: 100%;
+    padding: 20px;
 }
 #main #hello #text{
     padding-top: 20px;
@@ -129,19 +129,13 @@ header{
     background-color: dodgerblue;
     color: white;
 }
-#heading{
-    display: table;
-    height: 500px;
-    width: 100%;
-}
 .row{
-    display: table-row;
     height: 200px;
 }
-.cell{
-    padding: 10px;
-    display: table-cell;
-    width: 265px;
+.col-6{
+    width: 30%;
+    float: left;
+    padding: 5px;
 }
 .btn{
     border: solid 2px RGB(223,223,223);
