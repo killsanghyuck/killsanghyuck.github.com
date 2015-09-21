@@ -1,7 +1,7 @@
 html, body{
     font-family: sans-serif;
     width: 100%;
-    height: 2030px;
+    height: 5030px;
     margin: 0 0 0 0;
     padding: 0;
 }   
@@ -13,7 +13,7 @@ body{
     width: 90%;
     background-color: white;
     margin-top: 30px;
-    height: 2000px;
+    height: 5000px;
 }
 header{
     padding: 30px;
@@ -45,6 +45,7 @@ nav{
     width: 100%;
 }
 nav ul li a{
+    font-size: 20px;
     color: white;
     text-decoration: none;
     display: inline-block;
@@ -66,6 +67,7 @@ nav ul li a:hover{
     color: RGB(55,55,55);
 }
 #post{
+    width: 60%;
     float: left;
     padding: 30px;
 }
@@ -136,7 +138,7 @@ nav ul li a:hover{
 }
 #post .h3{
     margin-left: 40px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 100;
 }
 #post .h4{
@@ -154,7 +156,45 @@ nav ul li a:hover{
     text-decoration: underline;
     color: deepskyblue;
 }
+#post dl{
+    margin-left: 70px;   
+}
+#post dt{
+    font-weight: bold;
+}
+#post dd{
+    margin-left: -0px;
+    font-weight: 200;
+}
+#post ol, ul{
+    font-size: 12px;
+    font-weight: 100;
+}
+#post ul li{
+    list-style: square;
+}
+#post li{
+    font-size: 16px;
+    font-weight: 200;
+    margin-left: 40px;   
+}
+#post table{
+    text-align: left;
+    margin-left: 40px;
+    width: 100%;
+}
+#post table th{
+    color: dimgray;
+    border-bottom: 1px solid;
+    font-size: 12px;   
+}
+#post table td{
+    text-align: left;
+    padding: 4px;
+    border-bottom: 1px solid;
+}
 #side{
+    width: 20%;
     color: dimgray;
     margin-top: 60px;
     margin-right: 60px;
