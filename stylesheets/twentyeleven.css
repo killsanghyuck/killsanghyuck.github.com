@@ -29,6 +29,8 @@ header p{
     margin-top: -30px;
 }
 header input{
+    border-radius: 5px;
+    height: 30px;
     float: right;
     margin-top: -60px;
 }
@@ -233,6 +235,7 @@ nav ul li a:hover{
     font-size: 15px;
 }
 #side input{
+    height: 30px;
     margin-left: 40px;
 }
 #side ul li{
