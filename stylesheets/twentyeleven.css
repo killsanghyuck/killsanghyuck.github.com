@@ -193,6 +193,21 @@ nav ul li a:hover{
     padding: 7px;
     border-bottom: 1px solid;
 }
+#post acronym,addr{
+    border-bottom: 1px dotted gray;
+    cursor: help;
+}
+#post pre{
+    margin-left: 40px;  
+    font-size: 13px;
+    background-color: RGB(240,240,240);
+}
+#post pre .p1{
+    font-size: 13px;
+}
+#post blockquote{
+    font-style: italic;
+}
 #side{
     width: 20%;
     color: dimgray;
