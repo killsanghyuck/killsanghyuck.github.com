@@ -14,9 +14,9 @@ body {
 }
 img{
     margin-top: 40px;
-    width: 400px;
-    height: 400px;
-        transition: transform 0.1s ease;
+    width: 350px;
+    height: 350px;
+        -webkit-transition: transform 0.1s ease;
 
 }
 img:hover{
