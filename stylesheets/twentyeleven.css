@@ -1,16 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+
 html, body{
-    font-family: sans-serif;
     width: 100%;
     margin: 0 0 0 0;
     padding: 0;
+    min-width: 320px;
 }
+body { font-family: Noto Sans; }
+
 #main{
     text-align: center;   
 }
-#main img{
+img{
     margin-top: 40px;
     width: 400px;
     height: 400px;
+        transition: transform 0.1s ease;
+
+}
+img:hover{
+         -webkit-transform: rotate(20deg);   
+
 }
 .num{
     margin-top: -10px;
@@ -29,4 +39,34 @@ html, body{
 }
 .link a:hover{
     color: RGB(260,210,0);
+}
+@media screen and (max-width:500px) {
+img{
+    margin-top: 10px;
+    width: 60%;
+    height: 60%;
+}
+img:hover{
+    transform: rotate(360edg);
+
+}
+.num{
+    margin-top: -10px;
+    margin-bottom: -10px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.message{
+    margin-top: -10px;
+    font-size: 20px;
+}
+.link a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.link a:hover{
+    color: RGB(260,210,0);
+}
+
 }
