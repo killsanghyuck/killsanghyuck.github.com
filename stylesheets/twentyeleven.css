@@ -6,8 +6,9 @@ html, body{
     padding: 0;
     min-width: 320px;
 }
-body { font-family: Noto Sans; }
-
+body { 
+    font-family: Noto Sans,sans-serif; 
+}
 #main{
     text-align: center;   
 }
