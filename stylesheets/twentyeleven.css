@@ -1,9 +1,5 @@
 @import url('http://fonts.googleapis.com/css?family=Noto+Sans');
 html, body{
-    background-color: RGBA(0,0,0,0.6);
-    *background-color: RGBA(0,0,0,0.6);             
-    filter:alpha(opacity=60);
- filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#90000000, endColorstr=#90000000);
     margin: 0px 0px 0px 0px;
     padding: 0px;
     height: 100%;
@@ -33,6 +29,12 @@ html, body{
     _height: 100%;
 }
 .main{
+    
+    background-color: RGBA(0,0,0,0.8);
+    *background-color: RGBA(0,0,0,0.8);             
+    filter:alpha(opacity=60);
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#90000000, endColorstr=#90000000);
+    
     display: table;
     position: relative; z-index: 1;
     height: 100%;
