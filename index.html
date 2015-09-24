@@ -1,19 +1,120 @@
 <!doctype html>
 <html>
 <head>
+    <link href="http://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="stylesheets/twentyeleven.css" rel="stylesheet">
     <title>parkhere_error</title>
+    <style>
+html, body{
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    height: 100%;
+    font-family: Noto Sans,sans-serif; 
+}
+.con{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.main{
+    display: table;
+    position: relative; z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.num{
+    margin-top: -10px;
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+.message{
+    font-size: 25px;
+}
+.link a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.link a:hover{
+    color: RGB(260,210,0);
+}
+
+#my_img{
+    height: 350px;
+    width: 350px;
+    -webkit-transition: transform 0.1s ease;
+    -moz-transition: transform 0.1s ease;
+    -ms-transition: transform 0.1s ease;
+    -o-transition: transform 0.1s ease;
+}
+#my_img:hover{
+    -webkit-transform: rotate(20deg);   
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+
+}
+        
+@media screen and (max-width:600px) {
+    
+.num{
+    margin-top: -10px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+.message{
+    font-size: 20px;
+}
+.link a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.link a:hover{
+    color: RGB(260,210,0);
+}
+
+#my_img{
+    height: 40%;
+    width: 40%;
+    -webkit-transition: transform 0.1s ease;
+    -moz-transition: transform 0.1s ease;
+    -ms-transition: transform 0.1s ease;
+    -o-transition: transform 0.1s ease;
+}
+#my_img:hover{
+    -webkit-transform: rotate(20deg);   
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+
+}
+       
+}
+    </style>
 </head>
 <body>
-    <div id="con">
-        <div id="main">
-            <img id="my_img" src="img/parkhere_error.png" >
-            <p class="num">404</p>
-            <p class="message">Oh my god!!<br>페이지를 찾을 수 없습니다.</p>
-            <p class="link"><a href="#">홈페이지 돌아가기</a></p>
+     <div class="con">
+        <div class="main">
+            <div class="inner">
+                <div class="center">
+                <img id="my_img" src="img/parkhere_error.png" >
+             <p class="num">404</p>
+             <p class="message">Oh my god!!<br>페이지를 찾을 수 없습니다.</p>
+             <p class="link"><a href="#">홈페이지 돌아가기</a></p>
+                </div>
+            </div>
+            
+        
         </div>
-    </div>
+        </div>
 </body>
 </html>
