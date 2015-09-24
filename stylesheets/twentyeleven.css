@@ -1,45 +1,45 @@
 @import url('http://fonts.googleapis.com/css?family=Noto+Sans');
-html, body{
+*html, body{
     margin: 0px 0px 0px 0px;
     padding: 0px;
     height: 100%;
     font-family: Noto Sans,sans-serif,serif,fantasy; 
 }
-.con{
+*.con{
     position: relative;
     width: 100%;
     height: 100%;
 }
-.main{
+*.main{
     display: table;
     position: relative; z-index: 1;
     height: 100%;
     width: 100%;
 }
-.inner{
+*.inner{
     display: table-cell;
     vertical-align: middle;
     text-align: center;
 }
-.num{
+*.num{
     margin-top: -10px;
     font-size: 100px;
     font-weight: bold;
     margin-bottom: -10px;
 }
-.message{
+*.message{
     font-size: 25px;
 }
-.link a{
+*.link a{
     font-size: 20px;
     text-decoration: none;
     color: black;
 }
-.link a:hover{
+*.link a:hover{
     color: RGB(260,210,0);
 }
 
-#my_img{
+*#my_img{
     height: 350px;
     width: 350px;
     -webkit-transition: transform 0.1s ease;
@@ -47,7 +47,7 @@ html, body{
     -ms-transition: transform 0.1s ease;
     -o-transition: transform 0.1s ease;
 }
-#my_img:hover{
+*#my_img:hover{
 -webkit-transform: rotate(20deg);   
 -moz-transform: rotate(20deg);
 -ms-transform: rotate(20deg);
@@ -57,25 +57,25 @@ html, body{
 
 @media screen and (max-width:600px) {
 
-.num{
+*.num{
 margin-top: -10px;
 font-size: 50px;
 font-weight: bold;
 margin-bottom: -10px;
 }
-.message{
+*.message{
 font-size: 20px;
 }
-.link a{
+*.link a{
 font-size: 15px;
 text-decoration: none;
 color: black;
 }
-.link a:hover{
+*.link a:hover{
 color: RGB(260,210,0);
 }
 
-#my_img{
+*#my_img{
 height: 40%;
 width: 40%;
 -webkit-transition: transform 0.1s ease;
@@ -83,7 +83,7 @@ width: 40%;
 -ms-transition: transform 0.1s ease;
 -o-transition: transform 0.1s ease;
 }
-#my_img:hover{
+*#my_img:hover{
 -webkit-transform: rotate(20deg);   
 -moz-transform: rotate(20deg);
 -ms-transform: rotate(20deg);
