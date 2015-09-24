@@ -1,5 +1,6 @@
 @import url('http://fonts.googleapis.com/css?family=Noto+Sans');
 html, body{
+    background-color: RGBA(0,0,0,0.5);
     margin: 0px 0px 0px 0px;
     padding: 0px;
     height: 100%;
@@ -58,6 +59,7 @@ html, body{
     _text-align: center;
 }
 .num{
+    color: RGB(240,190,0);
     margin-top: -10px;
     font-size: 100px;
     font-weight: bold;
@@ -74,14 +76,16 @@ html, body{
     _margin-bottom: -10px;
 }
 .message{
+    color: RGB(240,190,0);
     font-size: 25px;
     *font-size: 25px;
     _font-size: 25px;
 }
 .link a{
+    
     font-size: 20px;
     text-decoration: none;
-    color: black;
+    color: RGB(220,170,0);
     
     *font-size: 20px;
     *text-decoration: none;
@@ -92,7 +96,7 @@ html, body{
     _color: black;
 }
 .link a:hover{
-    color: RGB(260,210,0);
+    color: RGB(300,270,0);
     *color: RGB(260,210,0);
     _color: RGB(260,210,0);
 }
@@ -144,8 +148,7 @@ html, body{
 .link a{
     font-size: 15px;
     text-decoration: none;
-    color: black;
-    
+    color: RGB(240,190,0);    
     *font-size: 15px;
     *text-decoration: none;
     *color: black;
@@ -154,12 +157,6 @@ html, body{
     _text-decoration: none;
     _color: black;
 }
-.link a:hover{
-    color: RGB(260,210,0);
-    *color: RGB(260,210,0);
-    _color: RGB(260,210,0);
-}
-
 #my_img{
     height: 40%;
     width: 40%;
