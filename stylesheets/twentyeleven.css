@@ -152,27 +152,27 @@ html, body{
 
     * font-size: 15px;
     * text-decoration: none;
-    * color: black;
+    *color: black;
 }
 .link a:hover{
     color: RGB(260,210,0);
     *+ html color: RGB(260,210,0);
-    * color: RGB(260,210,0);
+    *color: RGB(260,210,0);
 }
 
-#my* img{
+#my_img{
     height: 40%;
     width: 40%;
     *+ html height: 40%;
     *+ html width: 40%;
-    * height: 40%;
-    * width: 40%;
+    *height: 40%;
+    *width: 40%;
     -webkit-transition: transform 0.1s ease;
     -moz-transition: transform 0.1s ease;
     -ms-transition: transform 0.1s ease;
     -o-transition: transform 0.1s ease;
 }
-#my* img:hover{
+#my_img:hover{
     -webkit-transform: rotate(20deg);   
     -moz-transform: rotate(20deg);
     -ms-transform: rotate(20deg);
