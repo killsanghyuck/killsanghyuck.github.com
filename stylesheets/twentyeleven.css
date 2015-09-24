@@ -1,7 +1,9 @@
 @import url('http://fonts.googleapis.com/css?family=Noto+Sans');
 html, body{
     background-color: RGBA(0,0,0,0.6);
-    *background-color: RGBA(0,0,0,0.6);
+    *background-color: RGBA(0,0,0,0.6);             
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#40000000,endColorstr=#40000000);
+    -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#40000000, endColorstr=#40000000)";
     margin: 0px 0px 0px 0px;
     padding: 0px;
     height: 100%;
