@@ -3,8 +3,7 @@ html, body{
     background-color: RGBA(0,0,0,0.6);
     *background-color: RGBA(0,0,0,0.6);             
     filter:alpha(opacity=60);
- filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#70000000, endColorstr=#70000000);
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#70000000, endColorstr=#70000000)";
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000, endColorstr=#50000000);
     margin: 0px 0px 0px 0px;
     padding: 0px;
     height: 100%;
