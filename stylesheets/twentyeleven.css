@@ -5,28 +5,28 @@ html, body{
     height: 100%;
     font-family: Noto Sans,sans-serif,serif,fantasy; 
     
-    *+ html margin: 0px 0px 0px 0px;
-    *+ html padding: 0px;
-    *+ html height: 100%;
-    *+ html font-family: Noto Sans,sans-serif,serif,fantasy; 
+    *margin: 0px 0px 0px 0px;
+    *padding: 0px;
+    *height: 100%;
+    *font-family: Noto Sans,sans-serif,serif,fantasy; 
     
-    * margin: 0px 0px 0px 0px;
-    * padding: 0px;
-    * height: 100%;
-    * font-family: Noto Sans,sans-serif,serif,fantasy; 
+    _margin: 0px 0px 0px 0px;
+    _padding: 0px;
+    _height: 100%;
+    _font-family: Noto Sans,sans-serif,serif,fantasy; 
 }
 .con{
     position: relative;
     width: 100%;
     height: 100%;
     
-    *+ html position: relative;
-    *+ html width: 100%;
-    *+ html height: 100%;
+    *position: relative;
+    *width: 100%;
+    *height: 100%;
     
-    * position: relative;
-    * width: 100%;
-    * height: 100%;
+    _position: relative;
+    _width: 100%;
+    _height: 100%;
 }
 .main{
     display: table;
@@ -34,28 +34,28 @@ html, body{
     height: 100%;
     width: 100%;
     
-    *+ html display: table;
-    *+ html position: relative; z-index: 1;
-    *+ html height: 100%;
-    *+ html width: 100%;
+    *display: table;
+    *position: relative; z-index: 1;
+    *height: 100%;
+    *width: 100%;
     
-    * display: table;
-    * position: relative; z-index: 1;
-    * height: 100%;
-    * width: 100%;
+    _display: table;
+    _position: relative; z-index: 1;
+    _height: 100%;
+    _width: 100%;
 }
 .inner{
     display: table-cell;
     vertical-align: middle;
     text-align: center;
     
-    *+ html display: table-cell;
-    *+ html vertical-align: middle;
-    *+ html text-align: center;
+    *display: table-cell;
+    *vertical-align: middle;
+    *text-align: center;
     
-    * display: table-cell;
-    * vertical-align: middle;
-    * text-align: center;
+    _display: table-cell;
+    _vertical-align: middle;
+    _text-align: center;
 }
 .num{
     margin-top: -10px;
@@ -63,54 +63,54 @@ html, body{
     font-weight: bold;
     margin-bottom: -10px;
     
-    *+ html margin-top: -10px;
-    *+ html font-size: 100px;
-    *+ html font-weight: bold;
-    *+ html margin-bottom: -10px;
+    *margin-top: -10px;
+    *font-size: 100px;
+    *font-weight: bold;
+    *margin-bottom: -10px;
     
-    * margin-top: -10px;
-    * font-size: 100px;
-    * font-weight: bold;
-    * margin-bottom: -10px;
+    _margin-top: -10px;
+    _font-size: 100px;
+    _font-weight: bold;
+    _margin-bottom: -10px;
 }
 .message{
     font-size: 25px;
-    *+ html font-size: 25px;
-    * font-size: 25px;
+    *font-size: 25px;
+    _font-size: 25px;
 }
 .link a{
     font-size: 20px;
     text-decoration: none;
     color: black;
     
-    *+ html font-size: 20px;
-    *+ html text-decoration: none;
-    *+ html color: black;
+    *font-size: 20px;
+    *text-decoration: none;
+    *color: black;
     
-    * font-size: 20px;
-    * text-decoration: none;
-    * color: black;
+    _font-size: 20px;
+    _text-decoration: none;
+    _color: black;
 }
 .link a:hover{
     color: RGB(260,210,0);
-    *+ html color: RGB(260,210,0);
-    * color: RGB(260,210,0);
+    *color: RGB(260,210,0);
+    _color: RGB(260,210,0);
 }
 
-#my* img{
+#my_img{
     height: 350px;
     width: 350px;
-    *+ html height: 350px;
-    *+ html width: 350px;
-    * height: 350px;
-    * width: 350px;
+    *height: 350px;
+    *width: 350px;
+    _height: 350px;
+    _width: 350px;
    
     -webkit-transition: transform 0.1s ease;
     -moz-transition: transform 0.1s ease;
     -ms-transition: transform 0.1s ease;
     -o-transition: transform 0.1s ease;
 }
-#my* img:hover{
+#my_img:hover{
     -webkit-transform: rotate(20deg);   
     -moz-transform: rotate(20deg);
     -ms-transform: rotate(20deg);
@@ -126,57 +126,57 @@ html, body{
     font-weight: bold;
     margin-bottom: -10px;
     
-    *+ html margin-top: -10px;
-    *+ html font-size: 50px;
-    *+ html font-weight: bold;
-    *+ html margin-bottom: -10px;
+    *margin-top: -10px;
+    *font-size: 50px;
+    *font-weight: bold;
+    *margin-bottom: -10px;
 
-    * margin-top: -10px;
-    * font-size: 50px;
-    * font-weight: bold;
-    * margin-bottom: -10px;
+    _margin-top: -10px;
+    _font-size: 50px;
+    _font-weight: bold;
+    _margin-bottom: -10px;
 }
 .message{
     font-size: 20px;
-    *+ html font-size: 20px;
-    * font-size: 20px;
+    *font-size: 20px;
+    _font-size: 20px;
 }
 .link a{
     font-size: 15px;
     text-decoration: none;
     color: black;
     
-    *+ html font-size: 15px;
-    *+ html text-decoration: none;
-    *+ html color: black;
-
-    * font-size: 15px;
-    * text-decoration: none;
+    *font-size: 15px;
+    *text-decoration: none;
     *color: black;
+
+    _font-size: 15px;
+    _text-decoration: none;
+    _color: black;
 }
 .link a:hover{
     color: RGB(260,210,0);
-    *+ html color: RGB(260,210,0);
     *color: RGB(260,210,0);
+    _color: RGB(260,210,0);
 }
 
 #my_img{
     height: 40%;
     width: 40%;
-    *+ html height: 40%;
-    *+ html width: 40%;
     *height: 40%;
     *width: 40%;
+    _height: 40%;
+    _width: 40%;
     -webkit-transition: transform 0.1s ease;
     -moz-transition: transform 0.1s ease;
     -ms-transition: transform 0.1s ease;
     -o-transition: transform 0.1s ease;
 }
 #my_img:hover{
-    -webkit-transform: rotate(20deg);   
-    -moz-transform: rotate(20deg);
-    -ms-transform: rotate(20deg);
-    -o-transform: rotate(20deg);
+-webkit-transform: rotate(20deg);   
+-moz-transform: rotate(20deg);
+-ms-transform: rotate(20deg);
+-o-transform: rotate(20deg);
 
 }
 
