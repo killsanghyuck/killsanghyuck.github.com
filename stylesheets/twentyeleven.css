@@ -33,7 +33,7 @@ html, body{
     background-color: RGBA(0,0,0,0.8);
     *background-color: RGBA(0,0,0,0.8);             
     filter:alpha(opacity=60);
- filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#1000000, endColorstr=#1000000);
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#10000000, endColorstr=#10000000);
     
     display: table;
     position: relative; z-index: 1;
