@@ -29,10 +29,10 @@ html, body{
     _height: 100%;
 }
 .main{
-    
+    background-color: black;filter:alpha(opacity=80);
     background-color: RGBA(0,0,0,0.8);
     *background-color: RGBA(0,0,0,0.8);             
-    background-color: black; filter:alpha(opacity=80);
+    
 
     display: table;
     position: relative; z-index: 1;
