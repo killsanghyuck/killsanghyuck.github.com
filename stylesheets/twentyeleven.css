@@ -32,7 +32,7 @@ html, body{
     
     background-color: RGBA(0,0,0,0.8);
     *background-color: RGBA(0,0,0,0.8);             
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#8000000,endColorstr=#8000000);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7000000,endColorstr=#7000000);
 
     display: table;
     position: relative; z-index: 1;
