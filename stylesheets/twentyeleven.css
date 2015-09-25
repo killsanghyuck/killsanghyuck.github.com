@@ -3,17 +3,17 @@ html, body{
     margin: 0px 0px 0px 0px;
     padding: 0px;
     height: 100%;
-    font-family: Noto Sans,sans-serif,serif,fantasy; 
+    font-family: Noto Sans,sans-serif,serif,fantasy,"고딕"; 
     
     *margin: 0px 0px 0px 0px;
     *padding: 0px;
     *height: 100%;
-    *font-family: Noto Sans,sans-serif,serif,fantasy; 
+    *font-family: Noto Sans,sans-serif,serif,fantasy,"고딕"; 
     
     _margin: 0px 0px 0px 0px;
     _padding: 0px;
     _height: 100%;
-    _font-family: Noto Sans,sans-serif,serif,fantasy; 
+    _font-family: Noto Sans,sans-serif,serif,fantasy,"고딕"; 
 }
 .con{
     position: relative;
