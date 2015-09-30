@@ -29,11 +29,8 @@ html, body{
     _height: 100%;
 }
 .main{
-    background-color: black;filter:alpha(opacity=80);
-    background-color: RGBA(0,0,0,0.8);
-    *background-color: RGBA(0,0,0,0.8);             
-    
-
+    background-color: black;filter:alpha(opacity=20);
+    background-color: rgba(0,0,0,0.8);
     display: table;
     position: relative; z-index: 1;
     height: 100%;
@@ -98,11 +95,9 @@ html, body{
     *font-size: 20px;
     *text-decoration: none;
     *color: #FFD700;
-    *transition: background 0.3s linear;
     _font-size: 20px;
     _text-decoration: none;
-    _color: #F38900;
-    _transition: background 0.3s linear;
+    _color: #FFD700;
 }
 .link a:hover{
     background-color: black;
