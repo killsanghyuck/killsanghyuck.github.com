@@ -105,15 +105,13 @@ html, body{
     _transition: background 0.3s linear;
 }
 .link a:hover{
-    background-color: black;
+    background-color: #000;
     padding: 15px;
     border-radius: 50px;
     color: white;
-    *background-color: black;
     *padding: 15px;
     *border-radius: 50px;
     *color: white;
-    _background-color: black;
     _padding: 15px;
     _border-radius: 50px;
     _color: white;
