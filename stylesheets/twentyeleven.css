@@ -94,22 +94,28 @@ html, body{
     font-size: 20px;
     text-decoration: none;
     color: #FFD700;
-    
+    transition: background 0.3s linear;
     *font-size: 20px;
     *text-decoration: none;
     *color: #FFD700;
-    
+    *transition: background 0.3s linear;
     _font-size: 20px;
     _text-decoration: none;
     _color: #F38900;
-    transition: background 0.3s linear;
+    _transition: background 0.3s linear;
 }
 .link a:hover{
     background-color: black;
     padding: 15px;
     border-radius: 50px;
     color: white;
+    *background-color: black;
+    *padding: 15px;
+    *border-radius: 50px;
     *color: white;
+    _background-color: black;
+    _padding: 15px;
+    _border-radius: 50px;
     _color: white;
 }
 
