@@ -63,49 +63,54 @@ html, body{
     _text-align: center;
 }
 .num{
-    color: RGB(240,190,0);
+    color: #FFD700;
     margin-top: -10px;
     font-size: 100px;
     font-weight: bold;
     margin-bottom: -10px;
-    *color: RGB(240,190,0);
+    *color: #FFD700;
     *margin-top: -10px;
     *font-size: 100px;
     *font-weight: bold;
     *margin-bottom: -10px;
     
-    _color: RGB(240,190,0);
+    _color: #FFD700;
     _margin-top: -10px;
     _font-size: 100px;
     _font-weight: bold;
     _margin-bottom: -10px;
 }
 .message{
-    color: RGB(240,190,0);
+    color: #FFD700;
     font-size: 25px;
-    *color: RGB(240,190,0);
+    *color: #FFD700;
     *font-size: 25px;
-    _color: RGB(240,190,0);
+    _color: #FFD700;
     _font-size: 25px;
 }
 .link a{
-    
+    border-radius: 50px;
+    padding: 15px;
     font-size: 20px;
     text-decoration: none;
-    color: RGB(220,170,0);
+    color: #FFD700;
     
     *font-size: 20px;
     *text-decoration: none;
-    *color: RGB(220,170,0);
+    *color: #FFD700;
     
     _font-size: 20px;
     _text-decoration: none;
-    _color: RGB(220,170,0);
+    _color: #F38900;
+    transition: background 0.3s linear;
 }
 .link a:hover{
-    color: RGB(300,270,0);
-    *color: RGB(300,270,0);
-    _color: RGB(300,270,0);
+    background-color: black;
+    padding: 15px;
+    border-radius: 50px;
+    color: white;
+    *color: white;
+    _color: white;
 }
 
 #my_img{
